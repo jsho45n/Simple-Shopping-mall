@@ -1,0 +1,253 @@
+.shoppingmall {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+
+.shopping-header {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    background-color: #FFFFFF;    
+}
+
+.header-uppart {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: #FFFFFF;
+}
+
+#logo {
+    position: absolute;
+    display: inline-block;
+    width: 12%;
+    height: 100%;
+}
+
+#header-search {
+    position: fixed;
+    display: inline-block;
+    width: 35%;
+    margin-left: 13%;
+    margin-top: 25px;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+#header-submitbutton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 13px;
+    margin-left: 48.8%;
+    margin-top: 25px;
+}
+
+#header-loginbutton {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    margin-left: 450px;
+    border-radius: 500px;
+    border: 1px solid #1ba0a9;
+    color: white;
+    background-color: #1fb5bf;    
+}
+
+#header-registerbutton {
+    display: inline-block;
+    position: absolute;
+    width: 80px;
+    margin-left: 10px;
+    margin-top: 32.1px;
+    border-radius: 500px;
+    border: 1px solid #1ba0a9;
+    color: white;
+    background-color: #1fb5bf;    
+}
+
+.dropdownmenu {
+    position: absolute;
+    display: fixed;
+    margin-top: 76px;
+}
+
+.dropdownmenu ul, .dropdownmenu li {
+	margin: 0;
+    padding: 0;
+}
+.dropdownmenu ul {
+	background: gray;
+	list-style: none;
+	width: 100%;
+}
+.dropdownmenu li {
+	float: left;
+	position: relative;
+	width:auto;
+}
+.dropdownmenu a {
+    width: 102px;
+    height: 100%;
+	background: #30A6E6;
+	color: #FFFFFF;
+	display: block;
+	font: bold 12px/20px sans-serif;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+.dropdownmenu li:hover a {
+	background: #000000;
+}
+#submenu {
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 35px;
+	visibility: hidden;
+	z-index: 1;
+}
+li:hover ul#submenu {
+	opacity: 1;
+	top: 40px;	
+	visibility: visible;
+}
+#submenu li {
+	float: none;
+	width: 100%;
+}
+#submenu a:hover {
+	background: #DF4B05;
+}
+#submenu a {
+	background-color:#000000;
+}
+
+.shopping-body {
+    position: fixed;
+    width: 100%;
+    height: 69%;
+    margin-top: 7.82%;
+    background-color: #FFFFFF;
+}
+
+.body-slider {
+    position: fixed;
+    width: 100%;
+    height: 40%;
+    background-color: #FFFFFF;
+}   
+  
+
+.body-slider ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.myImage {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 147%;
+}
+
+img { 
+    vertical-align: middle;
+    width: 100%;
+    height: 70%;
+}
+
+.body-bestitem {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 180px;
+    background-color: white;
+    margin-top: 350px;
+}
+
+.list_item {
+    list-style: none;
+    width: 100%;
+    display: block;
+}
+
+.list-item {
+    float: left;
+    margin-top: -12px;
+}
+
+.box-image {
+    width: 80%;
+    height: 100%;
+    background-color: #FFFFFF;
+    margin-top: -20px;
+}
+
+#item {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#item:hover {
+    box-shadow: 1px 1px 20px black;
+}
+
+.item-rank {
+    background-color: #00c01e;
+    border: solid 2px black;
+    margin: -4px;
+    border-radius: 50%;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.item-name {
+    text-align: center;
+    margin-left: 92px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.item-price {
+    text-align: center;
+    margin-left: 90.4px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.shopping-footer {
+    position: fixed;
+    width: 100%;
+    height: 20%;
+    margin-top: 45%;
+    background-color: #ececec;
+}
+
+.text {
+    margin-top: 20px;
+    margin-left: 650px;
+    font-size: 13px;
+    color: #757c8a;
+}

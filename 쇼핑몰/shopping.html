@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>쇼핑몰-전세훈</title>
+    <link rel="stylesheet" href="shopping.css">
+    <script type="text/javascript" src="slider.js"></script>
+</head>
+
+<body class="shoppingmall" onload="showImages()">
+    <div class="shopping-header">
+        <div class="header-uppart">
+            <img id="logo" src="logo.jpg">
+            <input id="header-search" type="text" placeholder="쇼핑">
+            <button id="header-submitbutton">검색</button>
+            <button type="submit" id="header-loginbutton">로그인</button>
+            <button type="submit" id="header-registerbutton">회원가입</button>
+        </div>
+        <div class="header-downpart">
+            <nav class="dropdownmenu">
+                <ul>
+                    <li><a href="#">장난감</a>
+                        <ul id="submenu">
+                            <li><a href="#">붕붕이</a></li>
+                            <li><a href="#">로보트</a></li>
+                            <li><a href="#">콩순이</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">의류</a>
+                        <ul id="submenu">
+                            <li><a href="#">일상복</a></li>
+                            <li><a href="#">외출복</a></li>
+                            <li><a href="#">행사복</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">가전제품</a>
+                        <ul id="submenu">
+                            <li><a href="#">PC&노트북</a></li>
+                            <li><a href="#">가정용품</a></li>
+                            <li><a href="#">기타용품</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">식료품</a>
+                        <ul id="submenu">
+                            <li><a href="#">인스턴트</a></li>
+                            <li><a href="#">식재료</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">스포츠용품</a>
+                        <ul id="submenu">
+                            <li><a href="#">야구</a></li>
+                            <li><a href="#">축구</a></li>
+                            <li><a href="#">테니스</a></li>
+                        </ul>
+                    <li><a href="#">게임용품</a>
+                        <ul id="submenu">
+                            <li><a href="#">키보드</a></li>
+                            <li><a href="#">마우스</a></li>
+                            <li><a href="#">헤드셋</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">프로그래밍서적</a>
+                        <ul id="submenu">
+                            <li><a href="#">C언어</a></li>
+                            <li><a href="#">Javascript</a></li>
+                            <li><a href="#">Python</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">책</a>
+                        <ul id="submenu">
+                            <li><a href="#">추리소설</a></li>
+                            <li><a href="#">판타지소설</a></li>
+                            <li><a href="#">고전소설</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">게임</a>
+                        <ul id="submenu">
+                            <li><a href="#">배틀그라운드</a></li>
+                            <li><a href="#">리그 오브 레전드</a></li>
+                            <li><a href="#">오버워치</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="shopping-body">
+        <div class="body-slider">
+            <div class="myImage">
+                <img src="yuumi.jpg">
+            </div>
+            <div class="myImage">
+                <img src="Rakan.jpg">
+            </div>
+            <div class="myImage">
+                <img src="Nautilus.jpg">
+            </div>
+        </div>
+        <div class="body-bestitem">
+            <ul class="list_item">
+                <li class="list-item">
+                    <span class="item-rank">1위</span>
+                    <div class="box-image">
+                        <image id="item" src="Sena.jpg"></image>
+                    </div>
+                    <span class="item-name">세나</span>
+                    <br>
+                    <span class="item-price">950RP</span>
+                </li>
+                <li class="list-item"> <span class="item-rank">2위</span>
+                    <div class="box-image">
+                        <image id="item" src="yasuo.jpg"></image>
+                    </div>
+                    <span class="item-name">야스오</span>
+                    <br>
+                    <span class="item-price">750RP</span>
+                </li>
+                <li class="list-item"> <span class="item-rank">3위</span>
+                    <div class="box-image">
+                        <image id="item" src="yuumi.jpg"></image>
+                    </div>
+                    <span class="item-name">유미</span>
+                    <br>
+                    <span class="item-price">950RP</span>
+                </li>
+                <li class="list-item"> <span class="item-rank">4위</span>
+                    <div class="box-image">
+                        <image id="item" src="kai'sa.jpg"></image>
+                    </div>
+                    <span class="item-name">카이사</span>
+                    <br>
+                    <span class="item-price">950RP</span>
+                </li>
+                <li class="list-item"> <span class="item-rank">5위</span>
+                    <div class="box-image">
+                        <image id="item" src="teemo.jpg"></image>
+                    </div>
+                    <span class="item-name">티모</span>
+                    <br>
+                    <span class="item-price">125RP</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class=" shopping-footer">
+        <p class="text">
+            (주)SEHOON MALL <br>
+            개인연락처 : 010-1234-5678 <br>
+            SEHOON MALL을 방문해주셔서 감사합니다!
+        </p>
+    </div>
+</body>
+
+</html>
